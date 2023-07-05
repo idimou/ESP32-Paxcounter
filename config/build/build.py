@@ -23,7 +23,7 @@ config.read("platformio.ini")
 prjdir = env.get("PROJECT_DIR")
 
 # get platformio shared path
-shareddir = os.path.join (prjdir, "shared")
+shareddir = os.path.join (prjdir, "config")
 
 # get hal path
 haldir = os.path.join (shareddir, "hal")
